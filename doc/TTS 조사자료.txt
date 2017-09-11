@@ -1,0 +1,27 @@
+# TTS(Text To Speech) - 문자를 음성으로 출력해주는 기능
+
+# MS에서는 SAPI(Speech API)를 제공한다.(SAPI4, SAPI5)
+  음성인식(SR) 기능 + 음성출력(TTS)기능
+  WindowsXP에서부터 지원한다.
+  Windows7에서는 영문TTS만 지원되며, 한글은 제공되지 않는다. 유료제품을 구매하면 사용은 가능하다.
+  Windows8, 10에서는 한글TTS도 기본 제공된다.
+  VisualStudio 2013에서는 다른 SDK를 설치하지 않아도 설치되어 있다(C:\Program Files (x86)\Windows Kits\8.1\Include\um)
+  HKLM\SOFTWARE\Microsoft\Speech\Voices\Tokens\ 아래에 설치된 TTS가 있다.
+
+# SAPI외에 서버용으로 Microsoft Speech Platform을 제공한다.(SR+TTS 제공)
+  지원하는 운영체제는 Windows7이상 혹은 Windows2008서버 이상부터 제공된다.
+  한글 TTS/SR을 기본 제공한다.
+  SDK 및 Language 팩을 설치하여 개발 및 사용할 수 있다. 개발 프로젝트에서 설치된 SDK의 Include, Lib을 포함하면 된다.
+  HKLM\SOFTWARE\Microsoft\Speech Server\v11.0\Voices\Tokens\ 아래에 설치된 TTS가 있다.
+  https://msdn.microsoft.com/en-us/library/office/hh362831(v=office.14).aspx
+
+# TTS 국내제품
+  http://www.voiceware.co.kr/kor/index.php
+  http://www.ttscenter.com/core_ver2/main/main.html
+  http://speech.diotek.com/
+  http://www.nextware.kr/voicetalk_1.html#
+
+# 참고 사이트
+  http://13blog.tistory.com/12
+  http://idoforu.tistory.com/m/post/125
+  http://nuli.navercorp.com/sharing/blog/post/1132692

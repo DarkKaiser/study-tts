@@ -1,0 +1,5 @@
+# SR(Speech Recognition)
+  음성인식
+
+# TTS(Text To Speech)
+  문자를 음성으로 출력
